@@ -1,0 +1,73 @@
+{
+  "pages":[
+        "pages/index/index",
+        
+        "pages/rcgl/rcgl",
+        
+    "pages/rcgl2/rcgl2",
+    "pages/rcgl4/rcgl4",
+    "pages/rcgl3/rcgl3",
+
+        "pages/jhqd/jhqd",
+        
+    "pages/addagenda/addagenda",
+
+    "pages/me/me",
+        "pages/charts/scrollline/scrollline",
+        "pages/charts/radar/radar",
+        "pages/charts/line/line",
+        "pages/charts/column/column",
+        "pages/charts/pie/pie",
+        "pages/charts/ring/ring",
+        "pages/charts/area/area"
+
+  ],
+  "plugins": {
+},
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#FFF000",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "color": "",
+    "selectedColor": "",
+    "backgroundColor": "",
+    "position": "bottom",
+    "borderStyle": "black",
+    "list": [
+
+      {
+                "pagePath": "pages/index/index",
+                "text": "首页",
+                "iconPath": "img/icons/index.png",
+                "selectedIconPath": "img/icons/index_ed.png"
+      },
+          {
+            "pagePath": "pages/jhqd/jhqd",
+            "text": "计划清单",
+            "iconPath": "img/icons/jhqd.png",
+            "selectedIconPath":"img/icons/jhqd_ed.png"
+          },
+      {
+        "pagePath":"pages/rcgl2/rcgl2",
+        "text":"日程概览",
+        "iconPath":"img/icons/rcgl.png",
+        "selectedIconPath":"img/icons/rcgl_ed.png"
+      },
+
+      {
+                "pagePath": "pages/me/me",
+                "text":  "我的日程",
+                "iconPath": "img/icons/me.png",
+                "selectedIconPath": "img/icons/me_ed.png"
+      }
+
+
+    ]
+  }
+
+  
+    
+}
